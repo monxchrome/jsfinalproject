@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MAIN PAGE</title>
+    <script src="https://kit.fontawesome.com/d4879b1e1f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+
+<header>
+    <div class="header lineUp" id="header">
+        <div class="logo">
+            <h1 class="logo-text neonText" id="main">
+                <a href="index.html" onclick="url=this.href;setTimeout('location.href=url',2000);this.href='javascript:void(0)';">OKTEN</a>
+            </h1>
+        </div>
+        <div class="menu dropdown">
+            <i class="fa-solid fa-bars glow"></i>
+            <div class="dropdown-content lineUp">
+                <p class="hover-text neonText lineUp" id="dropdown1">
+                    <a href="users.html" onclick="url=this.href;setTimeout('location.href=url',2000);this.href='javascript:void(0)';">USERS</a>
+                </p>
+                <p class="hover-text neonText lineUp" id="dropdown2">
+                    <a href="posts.html" onclick="url=this.href;setTimeout('location.href=url',2000);this.href='javascript:void(0)';">POSTS</a>
+                </p>
+                <p class="hover-text neonText lineUp" id="dropdown3">
+                    <a href="index.html" onclick="url=this.href;setTimeout('location.href=url',2000);this.href='javascript:void(0)';">MAIN PAGE</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="users lineUp" id="users"></div>
+
+<script src="../scripts/index.js"></script>
+
+</body>
+</html>
