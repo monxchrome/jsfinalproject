@@ -5,10 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
+    <title>User Details</title>
     <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="../styles/posts.css">
+    <link rel="stylesheet" href="../styles/user-details.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -17,6 +18,8 @@
 
 </head>
 <body>
+
+<div class="deep-glow"></div>
 
 <header>
     <div class="header lineUp" id="header">
@@ -39,9 +42,26 @@
     </div>
 </header>
 
-<div class="posts lineUp" id="posts"></div>
+<div class="user" id="user" data-aos="fade-up"></div>
 
-<script src="../scripts/posts.js"></script>
+<div class="father" data-aos="fade-up">
+    <div class="contacts" id="contacts"></div>
+
+    <div class="address" id="address"></div>
+</div>
+<div class="mother" data-aos="fade-up">
+    <div class="company" id="company"></div>
+</div>
+
+<div class="posts" id="posts">
+
+</div>
+
+<script src="../scripts/user-details.js"></script>
+
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>
