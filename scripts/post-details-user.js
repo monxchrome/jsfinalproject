@@ -11,29 +11,29 @@ let link_a = document.getElementById('link-a');
 
 main.onclick = function () {
     header.classList.add('lineDown');
-    user.classList.add('lineLeft');
-    posts.classList.add('lineLeft');
+    user.classList.add('lineDown');
+    posts.classList.add('lineDown');
     comments.classList.add('lineDown')
 }
 
 d2.onclick = function () {
     header.classList.add('lineDown');
-    user.classList.add('lineLeft');
-    posts.classList.add('lineLeft');
+    user.classList.add('lineDown');
+    posts.classList.add('lineDown');
     comments.classList.add('lineDown')
 }
 
 d3.onclick = function () {
     header.classList.add('lineDown');
-    user.classList.add('lineLeft');
-    posts.classList.add('lineLeft');
+    user.classList.add('lineDown');
+    posts.classList.add('lineDown');
     comments.classList.add('lineDown')
 }
 
 user.onclick = function () {
     header.classList.add('lineDown');
-    user.classList.add('lineLeft');
-    posts.classList.add('lineLeft');
+    user.classList.add('lineDown');
+    posts.classList.add('lineDown');
     comments.classList.add('lineDown')
 }
 
